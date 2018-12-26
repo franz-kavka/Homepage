@@ -1,0 +1,35 @@
+/* @CHARSET "UTF-8"; */
+
+.white-bg {
+	position: relative;
+	top: -25em;
+	background-color: black;
+	min-height: 500px;
+	margin: 0px;
+	width: 100vw;
+	/*   height: 50vh; */
+	transform: skewY(5deg);
+	z-index: -1;
+	color: white;
+}
+.shadow {
+	box-shadow: -2px -5px 5px 0px rgba(0, 0, 0, 0.3);
+}
+
+#submit {
+	display: inline-block;
+	padding: 0.3em 1em;
+	text-decoration: none;
+	color: black;
+	border: solid 1px black;
+	border-radius: 3px;
+	transition: .4s;
+	background: white;
+	font-size: 15px;
+}
+
+#submit:hover {
+	background: black;
+	color: white;
+	border:1px white solid;
+}

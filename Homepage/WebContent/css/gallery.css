@@ -1,0 +1,47 @@
+@CHARSET "ISO-8859-1";
+
+* {
+	box-sizing: border-box;
+}
+
+/* ---- grid ---- */
+.grid {
+	background: #EEE;
+	max-width: 1200px;
+	background-color: rgba(0, 0, 0, 0);
+}
+
+/* clearfix */
+.grid:after {
+	content: '';
+	display: block;
+	clear: both;
+}
+
+/* ---- grid-item ---- */
+.grid-sizer, .grid-item {
+	margin: 0.1vw;
+	width: 24%;
+	min-width:100px;
+}
+
+.grid-item {
+	float: left;
+	background: black;
+	border: 2px inset white;
+	border-radius: 5px;
+	margin: 0.4px;
+
+}
+
+.grid-item--big {
+	width: 60%;
+}
+
+.grid-item--wide {
+	width: 90%;
+}
+
+.grid-item--biggest {
+	width: 64%;
+}
