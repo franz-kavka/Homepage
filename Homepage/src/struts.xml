@@ -6,169 +6,169 @@
 <struts>
 	<constant name="struts.ui.theme" value="simple" />
 	<constant name="struts.devMode" value="true" />
-	<package name="com.internousdev.homepage.action" extends="struts-default">
+	<package name="com.alldice.homepage.action" extends="struts-default">
 
-		<action name="HomeAction" class="com.internousdev.homepage.action.HomeAction"
+		<action name="HomeAction" class="com.alldice.homepage.action.HomeAction"
 			method="execute">
 			<result name="success">home.jsp</result>
 		</action>
 
-		<action name="ShopAction" class="com.internousdev.homepage.action.ShopAction"
+		<action name="ShopAction" class="com.alldice.homepage.action.ShopAction"
 			method="execute">
 			<result name="success">shop.jsp</result>
 		</action>
 
-		<action name="CartAddAction" class="com.internousdev.homepage.action.CartAddAction"
+		<action name="CartAddAction" class="com.alldice.homepage.action.CartAddAction"
 			method="execute">
 			<result name="success">shop.jsp</result>
 		</action>
 
-		<action name="CartAction" class="com.internousdev.homepage.action.CartAction"
+		<action name="CartAction" class="com.alldice.homepage.action.CartAction"
 			method="execute">
 			<result name="success">cart.jsp</result>
 		</action>
 
 		<action name="CartDeleteAction"
-			class="com.internousdev.homepage.action.CartDeleteAction" method="execute">
+			class="com.alldice.homepage.action.CartDeleteAction" method="execute">
 			<result name="success">cart.jsp</result>
 		</action>
 
 		<action name="CartDeleteItAction"
-			class="com.internousdev.homepage.action.CartDeleteItAction" method="execute">
+			class="com.alldice.homepage.action.CartDeleteItAction" method="execute">
 			<result name="success">cart.jsp</result>
 		</action>
 
-		<action name="OrderConfirmAction" class="com.internousdev.homepage.action.OrderConfirmAction"
+		<action name="OrderConfirmAction" class="com.alldice.homepage.action.OrderConfirmAction"
 			method="execute">
 			<result name="success">order.jsp</result>
 			<result name="error">cart.jsp</result>
 		</action>
 
-		<action name="OrderCompleteAction" class="com.internousdev.homepage.action.OrderCompleteAction"
+		<action name="OrderCompleteAction" class="com.alldice.homepage.action.OrderCompleteAction"
 			method="execute">
 			<result name="success">ordercomplete.jsp</result>
 			<result name="error">error.jsp</result>
 		</action>
 
-		<action name="GameAction" class="com.internousdev.homepage.action.GameAction"
+		<action name="GameAction" class="com.alldice.homepage.action.GameAction"
 			method="execute">
 			<result name="success">games.jsp</result>
 		</action>
 
-		<action name="GalleryAction" class="com.internousdev.homepage.action.GalleryAction"
+		<action name="GalleryAction" class="com.alldice.homepage.action.GalleryAction"
 			method="execute">
 			<result name="success">works.jsp</result>
 		</action>
 
-		<action name="BlogAction" class="com.internousdev.homepage.action.BlogAction"
+		<action name="BlogAction" class="com.alldice.homepage.action.BlogAction"
 			method="execute">
 			<result name="success">blog.jsp</result>
 		</action>
 
-		<action name="BlogNextAction" class="com.internousdev.homepage.action.BlogNextAction"
+		<action name="BlogNextAction" class="com.alldice.homepage.action.BlogNextAction"
 			method="execute">
 			<result name="success">blog.jsp</result>
 		</action>
 
-		<action name="BlogBeforeAction" class="com.internousdev.homepage.action.BlogBeforeAction"
+		<action name="BlogBeforeAction" class="com.alldice.homepage.action.BlogBeforeAction"
 			method="execute">
 			<result name="success">blog.jsp</result>
 		</action>
 
-		<action name="BlogNewAction" class="com.internousdev.homepage.action.BlogNewAction"
+		<action name="BlogNewAction" class="com.alldice.homepage.action.BlogNewAction"
 			method="execute">
 			<result name="success">blog.jsp</result>
 		</action>
 
-		<action name="AboutAction" class="com.internousdev.homepage.action.AboutAction"
+		<action name="AboutAction" class="com.alldice.homepage.action.AboutAction"
 			method="execute">
 			<result name="success">about.jsp</result>
 		</action>
 
-		<action name="ContactAction" class="com.internousdev.homepage.action.ContactAction"
+		<action name="ContactAction" class="com.alldice.homepage.action.ContactAction"
 			method="execute">
 			<result name="success">contact.jsp</result>
 		</action>
 
-		<action name="ContactSendAction" class="com.internousdev.homepage.action.ContactSendAction"
+		<action name="ContactSendAction" class="com.alldice.homepage.action.ContactSendAction"
 			method="execute">
 			<result name="success">home.jsp</result>
 		</action>
 
-		<action name="LoginAction" class="com.internousdev.homepage.action.LoginAction"
+		<action name="LoginAction" class="com.alldice.homepage.action.LoginAction"
 			method="execute">
 			<result name="success">login.jsp</result>
 		</action>
 
-		<action name="LoginCheckAction" class="com.internousdev.homepage.action.LoginCheckAction"
+		<action name="LoginCheckAction" class="com.alldice.homepage.action.LoginCheckAction"
 			method="execute">
 			<result name="success">admin.jsp</result>
 			<result name="error">error.jsp</result>
 		</action>
 
-		<action name="NewsAddAction" class="com.internousdev.homepage.action.NewsAddAction"
+		<action name="NewsAddAction" class="com.alldice.homepage.action.NewsAddAction"
 			method="execute">
 			<result name="success" type="redirectAction">HomeAction</result>
 			<result name="error">error.jsp</result>
 		</action>
 		<action name="NewsDeleteAction"
-			class="com.internousdev.homepage.action.NewsDeleteAction" method="execute">
+			class="com.alldice.homepage.action.NewsDeleteAction" method="execute">
 			<result name="success" type="redirectAction">HomeEditAction</result>
 			<result name="error">error.jsp</result>
 		</action>
 
-		<action name="HomeEditAction" class="com.internousdev.homepage.action.HomeEditAction"
+		<action name="HomeEditAction" class="com.alldice.homepage.action.HomeEditAction"
 			method="execute">
 			<result name="success">homeedit.jsp</result>
 		</action>
 
 		<action name="GalleryAddAction"
-			class="com.internousdev.homepage.action.GalleryAddAction" method="execute">
+			class="com.alldice.homepage.action.GalleryAddAction" method="execute">
 			<result name="success" type="redirectAction">GalleryEditAction</result>
 			<result name="error">error.jsp</result>
 		</action>
 
 		<action name="GalleryEditAction"
-			class="com.internousdev.homepage.action.GalleryEditAction" method="execute">
+			class="com.alldice.homepage.action.GalleryEditAction" method="execute">
 			<result name="success">galleryedit.jsp</result>
 			<result name="error">error.jsp</result>
 		</action>
 		<action name="GalleryDeleteAction"
-			class="com.internousdev.homepage.action.GalleryDeleteAction" method="execute">
+			class="com.alldice.homepage.action.GalleryDeleteAction" method="execute">
 			<result name="success" type="redirectAction">GalleryEditAction</result>
 			<result name="error">error.jsp</result>
 		</action>
 
-		<action name="BlogPreviewAction" class="com.internousdev.homepage.action.BlogPreviewAction"
+		<action name="BlogPreviewAction" class="com.alldice.homepage.action.BlogPreviewAction"
 			method="execute">
 			<result name="success">blogPreview.jsp</result>
 		</action>
-		<action name="BlogAddAction" class="com.internousdev.homepage.action.BlogAddAction"
+		<action name="BlogAddAction" class="com.alldice.homepage.action.BlogAddAction"
 			method="execute">
 			<result name="success" type="redirectAction">HomeAction</result>
 		</action>
 		<action name="BlogDeleteAction"
-			class="com.internousdev.homepage.action.BlogDeleteAction" method="execute">
+			class="com.alldice.homepage.action.BlogDeleteAction" method="execute">
 			<result name="success" type="redirectAction">HomeEditAction</result>
 			<result name="error">error.jsp</result>
 		</action>
 
-		<action name="OrderListAction" class="com.internousdev.homepage.action.OrderListAction"
+		<action name="OrderListAction" class="com.alldice.homepage.action.OrderListAction"
 			method="execute">
 			<result name="success" >orderlist.jsp</result>
 		</action>
-		<action name="OrderUpdateAction" class="com.internousdev.homepage.action.OrderUpdateAction"
+		<action name="OrderUpdateAction" class="com.alldice.homepage.action.OrderUpdateAction"
 			method="execute">
 			<result name="success" >orderlist.jsp</result>
 			<result name="error">error.jsp</result>
 		</action>
-		<action name="OrderDeleteAction" class="com.internousdev.homepage.action.OrderDeleteAction"
+		<action name="OrderDeleteAction" class="com.alldice.homepage.action.OrderDeleteAction"
 			method="execute">
 			<result name="success" >orderlist.jsp</result>
 			<result name="error">error.jsp</result>
 		</action>
 
-		<action name="ChangePassAction" class="com.internousdev.homepage.action.ChangePassAction"
+		<action name="ChangePassAction" class="com.alldice.homepage.action.ChangePassAction"
 			method="execute">
 			<result name="success" >login.jsp</result>
 			<result name="error">error.jsp</result>
