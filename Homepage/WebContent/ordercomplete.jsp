@@ -43,29 +43,16 @@ p {
 	color: white;
 	z-index: 10;
 	margin-top: 100px;
-	margin-bottom: 50px;
 	margin-left: 5vw;
-	width: 90%;
-	background-color: rgba(0, 0, 0, 0.50);
+	margin-bottom: 2vh;
+	width: 79%;
+	background-color: rgba(0, 0, 0, 0.70);
+	border-radius: 5px;
 	text-align: center;
 	padding: 6vw;
 	padding-top: 4vh;
 	float: left;
-}
-
-#thumb img {
-	width: 100%;
-	object-fit: cover;
-}
-
-#gallery, #news {
-	border: 2px inset white;
-	background: black;
-	text-align: center;
-}
-
-table {
-	margin: 0 auto;
+	border: 2px dashed maroon;
 }
 
 #margin {

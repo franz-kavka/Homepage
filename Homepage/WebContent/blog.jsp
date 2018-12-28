@@ -106,6 +106,8 @@ font-size:20px;
 	font-family: 'Ferrum', serif;
 	color:white;
 	font-size:calc(80% + 0.5vw);
+	white-space: normal;
+	 word-break: break-all
 }
 #submit:hover{
 	color:gray;

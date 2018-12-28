@@ -61,6 +61,7 @@ p {
 	padding: 6vw;
 	padding-top: 4vh;
 	float: left;
+	border: 2px dashed maroon;
 
 }
 

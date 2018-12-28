@@ -30,11 +30,7 @@
 		<ul class="nav">
 			<li><span class="block"><a href="#">MENU</a></span>
 				<ul>
-					<li><a href="HomeAction">HOME</a>
-						<ul class="left">
-							<li><a href="#">NEWS</a></li>
-							<li><a href="#">INFO</a></li>
-						</ul></li>
+					<li><a href="HomeAction">HOME</a></li>
 					<li><a href="ShopAction">SHOP</a>
 						<ul class="left">
 							<li><a href="ShopAction">SHOP</a></li>

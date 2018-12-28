@@ -131,8 +131,8 @@ color: white;
 </head>
 <body>
 	<ul id="menu">
-		<li data-menuanchor="page1" class="active"><a href="#page1">Title</a></li>
-		<li data-menuanchor="page2"><a href="#page2">Intro</a></li>
+		<li data-menuanchor="page1" class="active"><a href="#page1">ABOUT</a></li>
+		<li data-menuanchor="page2"><a href="#page2">RULE</a></li>
 		<li><a href="games.jsp#page1">戻る</a></li>
 		<li><a href="HomeAction">HOME</a></li>
 	</ul>
@@ -144,21 +144,17 @@ color: white;
 		<br>
 		<h1>ABOUT</h1>
 		<br>
-		<p>Devils Manner は、プレイヤーが契約した天使を強化し、力比べをするゲームです。</p>
-		<p>プレイヤーと契約したばかりの天使はなにも身に着けていません。</p>
+		<p>激論勇者はトークバトルパーティゲームです。</p>
 		<br>
-		<p>より強い装備を揃え、相手を打ち負かすことで願いを叶えましょう。</p>
-
+		<p>道中で拾った装備・アイテムを適切に配分し、協力しながら魔王を倒す戦力を整えましょう。</p>
+		<br>
+		<p>ただしそれぞれの装備には呪力が設定されています。</p>
+		<p>最終的に呪力の最も高いプレイヤーはなんと魔王となり、パーティと敵対することに！</p>
+		<br>
+		<br>
+		<p>誰が魔王になるか推理しながら、お互いを出し抜きあう正体隠匿チックなゲームです</p>
 		</div>
 		<div class="section" id="section2">
-			<a href="games.jsp#page1"><span id="max"></span></a>
-
-		</div>
-		<div class="section" id="section3">
-			<a href="games.jsp#page1"><span id="max"></span></a>
-		</div>
-		<div class="section" id="section4">
-			<a href="games.jsp#page1"><span id="max"></span></a>
 		</div>
 	</div>
 </body>

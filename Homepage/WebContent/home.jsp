@@ -55,7 +55,7 @@ body {
 	margin-left: 2vw;
 	margin-right: 0;
 	padding: 5.5vw;
-	/* 	border: 2px dashed maroon; */
+	border: 2px dashed maroon;
 }
 
 #news {
@@ -112,6 +112,7 @@ body {
 	min-width: 200px;
 	padding: 5vw 1vw 5vw 1vw;
 	min-width: 300px;
+	border: 2px dashed maroon;
 }
 
 #blog {
@@ -130,6 +131,8 @@ body {
 	visibility: hidden;
 	overflow: auto;
 	max-height: 10.1vw;
+	word-break: break-all;
+	white-space: normal;
 }
 
 #submit {

@@ -215,7 +215,7 @@ font-weight: normal;
 							<div id="totalprice">
 								合計：
 								<s:property value="session.total" />
-								円+送料
+								円+送料500円
 							</div>
 							<br> <br>
 							<form action="ShopAction">
@@ -365,7 +365,7 @@ font-weight: normal;
 										<tr>
 											<th>支払い方法</th>
 											<td><label><input type="radio" name="payment"
-													value="着払い" required>着払い</label> <label><input
+													value="代金引換" required>代金引換</label> <label><input
 													type="radio" name="payment" value="銀行振込" required>銀行振込</label></td>
 										</tr>
 									</tbody>
@@ -380,9 +380,9 @@ font-weight: normal;
 						<br>
 						<h1>カートが空です</h1>
 						<br>
-						<h1>
-							<a href="ShopAction">買い物に戻る</a>
-						</h1>
+						<form action="ShopAction">
+								<input type="submit" id="submit" value="買い物に戻る" />
+							</form>
 					</s:else>
 				</div>
 			</div>

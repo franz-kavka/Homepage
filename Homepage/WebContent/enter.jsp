@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Enter</title>
 <meta name="description"
-	content="A glitch effect using CSS animations and clip-path" />
+	content="ALLDICE official cite" />
 <meta name="keywords" content="glitch, effect, css, animations" />
 <meta name="author" content="Codrops" />
 <link rel="shortcut icon" href="./pic/favicon.ico">

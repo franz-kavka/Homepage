@@ -137,16 +137,16 @@ body {
 </head>
 <body>
 	<ul id="menu">
-		<li data-menuanchor="page1" class="active"><a href="#page1">Title</a></li>
-		<li data-menuanchor="page2"><a href="#page2">Intro</a></li>
-		<li data-menuanchor="page3"><a href="#page3">Rule</a></li>
+		<li data-menuanchor="page1" class="active"><a href="#page1">ABOUT</a></li>
+		<li data-menuanchor="page2"><a href="#page2">INTRO</a></li>
+		<li data-menuanchor="page3"><a href="#page3">RULE</a></li>
 		<li><a href="games.jsp#page2">戻る</a></li>
 		<li><a href="HomeAction">HOME</a></li>
 	</ul>
 
 	<div id="pagepiling">
 		<div class="section" id="section1">
-			<a href="games.jsp#page2"><span id="max"></span></a> <br> <br>
+			<br> <br>
 			<h1>ABOUT</h1>
 			<br>
 			<p>Devils Manner は、プレイヤーが契約した天使を強化し、力比べをするゲームです。</p>
@@ -156,7 +156,7 @@ body {
 
 			<p>嘘吐きは悪魔のはじまり。ドット絵で繰り広げられる心理戦の熱い本格ブラフゲーム！</p>
 			<p>ゲームマーケット2018秋（東京） デビルズマナーは２人用ブラフゲームです。</p>
-<br>
+			<br>
 			<p> ～基本的なゲームの流れ～</p>
 			<p>片方のプレイヤーが裏向きにカードを出して、装備の部位とランク（強さ）を宣言し、</p>
 			<p> もう片方のプレイヤーが ・ゲット（カードをもらう）</p>
@@ -166,17 +166,10 @@ body {
 			<p> もちろんそれを逆手にとって、 「ゲット」ばかりする相手に弱い装備を押し付けるのも有効な戦略です。</p>
 			<p>また、「ダウト」で嘘を見破ると自分か相手を天使から悪魔へ堕とすことができる逆転要素もあり、</p>
 			<p>最後までゲームの行方が分からないので観戦していても目が離せません。</p>
-
 		</div>
 		<div class="section" id="section2">
-			<a href="games.jsp#page2"><span id="max"></span></a>
-
 		</div>
 		<div class="section" id="section3">
-			<a href="games.jsp#page2"><span id="max"></span></a>
-		</div>
-		<div class="section" id="section4">
-			<a href="games.jsp#page2"><span id="max"></span></a>
 		</div>
 	</div>
 </body>
